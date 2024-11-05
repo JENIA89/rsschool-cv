@@ -1,11 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Resume</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+		<nav class="navigation">
+			<ul>
+				<li><a href="#about-me">About</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#about-me">About</a></li>
+			</ul>
+		</nav>
+        <h1>Popolamov Evgene - Front End Developer</h1>
+        <div class="header__inner">
+          <div class="photo">
+            <img
+              src="assets/author-photo.jpg"
+              alt="photo"
+              width="200"           
+            />
+          </div>
+          <div class="contacts">
+            <ul>
+              <li><a href="tel:+375255288930">Phone: 375 25 5288930</a></li>
+              <li>
+                <a href="https://github.com/JENIA89"
+				target="_blank"
+                >Github: github.com/JENIA89</a>
+              </li>
+              <li>
+                <a href="mailto:popolamov908@gmail.com"
+                  >Email: popolamov908@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="about-me">
+      <div class="container">
+        <div class="about-me__text">
+          <h2>About me</h2>
+        </div>
+        <div class="about-me__description">
+          <p>
+            My name is Eugene and I'm trying to find my first job. I'm learning
+            JS/React. I really like programming and I'm going to become a strong
+            developer. I'm a hard-working and honest team player. I'm always
+            willing to learn new skills. I have an active lifestyle. As for my
+            hobbies, I like bicycling, swimming, boxing, and reading books.
+            During my free time, I prefer to improve my skills via
+            self-education
+          </p>
+        </div>
+      </div>
+    </section>
+    <main id="education">
+      <div class="container">
+        <div class="education__text">
+          <h2>Education</h2>
+        </div>
+        <div class="education__years">
+          <p>2008 - Minsk State Lyceum of Mechanical Engineering</p>
+          <p>2019 - STORMNET “Software testing”</p>
+		  <p>English: Pre-Intermediate</p>
+        </div>
+      </div>
+    </main>
+	<main class="projects">
+		<div class="container">
+		  <div class="projects__text">
+			<h2>Projects</h2>
+		  </div>
+		  <ol>
+            <li>
+				<a href="https://github.com/JENIA89/react-calendar-test"
+				target="_blank"
+				>React Calendar</a>
+			</li>
+			<li>
+				<a href="https://github.com/JENIA89/Angular-blog"
+				target="_blank"
+				>Angular Blog</a>
+			</li>
+			<li>
+				<a href="https://github.com/JENIA89/Momentum"
+				target="_blank"
+				>Momentum</a>
+			</li>
+          </ol>
+		</div>
+	  </main>
+    <section id="skills">
+      <div class="container">
+        <div class="skills__text">
+          <h2>My skills</h2>
+        </div>
+        <div class="skills__description">
+          <ul class="skills__link">
+            <li>JavaScript</li>
+			<li>TypeScript</li>
+			<li>Angular</li>
+            <li>React</li>
+            <li>Redux</li>
+			<li>Redux-saga</li>
+            <li>Axios</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <nav class="navigation">
+			<ul>
+				<li><a href="https://github.com/JENIA89"
+					target="_blank"
+					>Github</a>
+				</li>
+				<li>2021</li>
+				<li><a href="https://rs.school" target="_blank">
+					<img
+						src="assets/rs.png"
+						alt="icon"
+						width="100"
+						height="30"
+            	/>
+				</a></li>
+			</ul>
+		</nav>
+      </div>
+    </footer>
+  </body>
 </html>
